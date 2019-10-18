@@ -1,0 +1,20 @@
+{% load i18n %}
+<footer class="footer container-fluid">
+    {% block footer %}
+        {% comment %}
+            Could be used for displaying links to privacy policy, terms of service, etc.
+            We have a CSS class defined:
+                <ul class="footer_links inline">
+                    ...
+                </ul>
+         {% endcomment %}
+        <div class="text-center">
+        <br>
+          <a class="" href="https://www.instagram.com/muza__studio/">
+            <img src="https://image.flaticon.com/icons/svg/174/174855.svg" height="40" class="d-inline-block align-top" alt="">
+          </a>
+	  <br><br>
+	  <p class="text-muted">Copyright © 2019 <a class="" href="/">muzastudio.net</a></p>
+	</div>
+    {% endblock %}
+</footer>
